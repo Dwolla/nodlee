@@ -1,0 +1,11 @@
+module.exports.health = require('./health');
+module.exports.coblogin = require('./coblogin');
+module.exports.register3 = require('./register3');
+module.exports.login = require('./login');
+module.exports.getContentServiceInfoByRoutingNumber = require('./getContentServiceInfoByRoutingNumber');
+module.exports.getContentServiceInfo1 = require('./getContentServiceInfo1');
+module.exports.getLoginFormForContentService = require('./getLoginFormForContentService');
+module.exports.addItemAndStartVerificationDataRequest = require('./addItemAndStartVerificationDataRequest');
+module.exports.getMFAResponse = require('./getMFAResponse');
+module.exports.putMFARequest = require('./putMFARequest');
+module.exports.getItemVerificationData = require('./getItemVerificationData');
