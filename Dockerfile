@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:groovy-20210614
 
 RUN apt-get -y update
 RUN apt-get -y install nodejs
