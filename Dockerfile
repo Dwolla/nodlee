@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:20.10
 
 RUN apt-get -y update
 RUN apt-get -y install nodejs
